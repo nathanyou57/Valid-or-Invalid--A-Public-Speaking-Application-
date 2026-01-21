@@ -1,0 +1,52 @@
+Design Review Guidelines:
+1. Conduct design reviews for the 3 projects with the highest financial influence.
+   - Ensure collaborator status on the project accounts (ask to be added or fork if absent).
+   - Add collaborators for those wishing to work on the project.
+2. Follow the design review documentation from the previous cycle.
+3. Focus on additional features for user experience and overall application design.
+
+---
+
+Design Review Comments: Valid or Invalid
+
+This is a great concept, especially taking the Bread Basket game and making it digital. I think it has a lot of potential for building confidence in public speaking. Here are some thoughts on features and improvements:
+
+New Feature Ideas:
+- Add daily debate topic notifications and streak tracking to keep people coming back.
+- Sharing to TikTok or Instagram with "Valid" or "Invalid" overlays—this would be great for growth.
+- Weekly leaderboards for top debaters and most controversial topics.
+- A "Duet mode" where people can record a response to an existing argument.
+- Challenges where you can battle friends or teams in a debate.
+
+Debate & Recording Tools:
+- Argument templates for beginners (like "The main problem is..." or "Consider this...") to help them structure their thoughts.
+- A private practice mode where you can record and watch yourself before posting publicly.
+- A timer overlay (30s, 60s, or 2min) to keep speeches concise.
+- A "See both sides" rule: you have to watch the opposing argument before you're allowed to vote.
+
+AI & Coaching:
+- Auto-transcription that highlights filler words like "um," "like," and "uh."
+- Feedback on speech pace and pronunciation.
+- An "argument quality" score based on logic and persuasiveness.
+- AI-generated counter-arguments to help people practice defending their points.
+
+UI/UX & Gamification:
+- XP points, levels, and badges to make it feel more like a game (like Duolingo).
+- A dashboard on the profile for win/loss ratios and debate stats.
+- Interactive onboarding with a simple starter topic like "Is a hot dog a sandwich?"
+- A clean recording screen with just the topic, a big record button, and a countdown.
+- Swipe-based voting (left for invalid, right for valid) like Tinder, with poll results shown after.
+
+Technical & Business side:
+- Stick with React Native or Flutter for mobile-first cross-platform support.
+- Use Firebase for real-time updates and auth.
+- Integrate AssemblyAI or GPT for the transcription and argument analysis.
+- Needs video compression and a CDN for fast loading.
+- Freemium model: maybe 3 debates a day for free, and a premium tier for unlimited access and advanced stats.
+
+Risks to watch out for:
+- Moderation is key—need AI flagging for hate speech and a solid reporting system.
+- For people who are shy, the private practice mode and beginner-friendly topics will help a lot.
+- Use tags for different types of topics (Serious, Casual, Comedy) so people know what they're getting into.
+
+Overall, if you focus on keeping the barrier to entry low and making it feel like a game, this could be huge. Really looking forward to seeing the next version!
